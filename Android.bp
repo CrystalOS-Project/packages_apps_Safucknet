@@ -1,10 +1,11 @@
 //
 // Copyright (C) 2023 The Evolution X Project
+// 			 (C) 2023 CrystalOS-Project
 // SPDX-License-Identifier: Apache-2.0
 //
 
 android_app {
-    name: "Pif",
+    name: "Safucknet",
     defaults: [
         "SettingsLibDefaults",
     ],

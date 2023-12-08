@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.goolag.pif;
+package com.crystal.safucknet;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -15,9 +15,9 @@ import androidx.preference.PreferenceManager;
 
 import com.android.internal.util.evolution.PixelPropsUtils;
 
-import com.goolag.pif.R;
+import com.crystal.safucknet.R;
 
-public class Pif extends PreferenceFragment
+public class Safucknet extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
     private Preference mProductPreference;

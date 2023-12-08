@@ -7,7 +7,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
           android:sharedUserId="android.uid.system"
-          package="com.goolag.pif"
+          package="com.crystal.safucknet"
           android:versionCode="2"
           android:versionName="2.0" >
 
@@ -17,10 +17,10 @@
         android:theme="@style/Theme.SubSettingsBase"
         android:exported="true">
 
-        <!-- Pif activity -->
+        <!-- Safucknet activity -->
         <activity
-            android:name=".PifActivity"
-            android:label="@string/pif_title"
+            android:name=".SafucknetActivity"
+            android:label="@string/safucknet_title"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
